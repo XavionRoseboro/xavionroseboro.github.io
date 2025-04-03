@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#palette-heading-1{
+    font-family: sans-serif; 
+    text-align: center;
+}
+
+#palette-1-color{
+    background-color: #bcf8ec;
+    color: ;
+    font-family: sans-serif;
+    text-align: center; 
+    padding: 24px;
+}
+
+#palette-1-color-2{
+    background-color: #aed9e0;
+    color: ;
+    font-family: sans-serif;
+    text-align: center; 
+    padding: 24px;
+}
+
+#palette-1-color-3{
+    background-color: #9fa0c3;
+    color: ;
+    font-family: sans-serif;
+    text-align: center; 
+    padding: 24px;
+}
+
+#palette-heading-2{
+    font-family: Impact;
+    text-align: center;
+}
+
+#palette-2-color{
+    background-color: #fae3e3;
+    color: rgb(66, 65, 80);
+    font-family: Impact;
+    text-align: center; 
+    padding: 24px;
+}
+
+#palette-2-color-2{
+    background-color: #f7d4bc;
+    color: rgb(66, 65, 80);
+    font-family: Impact;
+    text-align: center; 
+    padding: 24px;
+}
+
+#palette-2-color-3{
+    background-color: #cfa5b4;
+    color: rgb(104, 103, 109);
+    font-family: Impact;
+    text-align: center; 
+    padding: 24px;
+}
+
+#palette-heading-3{
+    font-family: Arial;
+    text-align: center;
+}
+
+#palette-3-color{
+    background-color: #395e66;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    text-align: center; 
+    padding: 24px;
+}
+
+#palette-3-color-2{
+    background-color: #387d7a;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    text-align: center; 
+    padding: 24px;
+}
+
+#palette-3-color-3{
+    background-color: #32936f;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    text-align: center; 
+    padding: 24px;
+}
