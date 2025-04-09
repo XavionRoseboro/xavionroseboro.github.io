@@ -1,0 +1,34 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+#post-1{
+    width: 130px;
+    margin-top: 20px;
+    border: 5px solid whitesmoke;
+    padding: 5px;
+    background-color: bisque;
+}
+#post-2{
+    width: 100px;
+    margin-top: 150px;
+    margin-left: 15px;
+    box-shadow:inset 10px black;
+    border: 1px solid;
+    padding: 2px;
+    background-color: gray;
+    transform: rotate(2deg)
+}
+#post-3{
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 35px;
+    transform: rotate(-2deg);
+}
+#post-4 p{
+    
+}
