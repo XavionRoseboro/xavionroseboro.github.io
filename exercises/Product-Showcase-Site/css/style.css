@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Haettenschwei;
+}
+.Main-Layout{
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    min-width: 500px;
+}
+#text-1{
+    margin-top: ;
+}
+#header-1{
+    margin-bottom: 0px;
+}
+#image-1{
+    margin-top: 0px;
+}
+.Main-Layout-1{
+    background-color: rgb(131, 93, 11);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    min-width: 500px;
+}
+.Main-Layout-2{
+    background-color: rgb(252, 235, 200);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    min-width: 500px;
+}
