@@ -2,9 +2,11 @@
     box-sizing: border-box;
 }
 
-body {
+.text{
     margin: 0px;
     font-family: Haettenschwei;
+    color: rgb(51, 44, 43);
+    font-size: x-large;
 }
 .Main-Layout{
     background-color: burlywood;
@@ -14,7 +16,7 @@ body {
     min-width: 500px;
 }
 #text-1{
-    margin-top: ;
+    margin-top: 0px;
 }
 #header-1{
     margin-bottom: 0px;
@@ -35,4 +37,12 @@ body {
     margin-right: auto;
     text-align: center;
     min-width: 500px;
+}
+#text-2{
+    background-color: blanchedalmond;
+    border-radius: 30%;
+}
+#text-3{
+    background-color: rgb(255, 255, 255);
+    border-radius: 30%;
 }
