@@ -13,6 +13,7 @@ body {
     min-width: 600px;
     max-width: 1000px;
     margin: 30px, auto;
+    padding: 48px;
 }
 #sidebar{
     position: sticky;
@@ -32,4 +33,8 @@ body {
 #sidebar a{
     text-decoration: none;
     color: rgb(197, 73, 51);
+}
+#Main Content{
+    flex: 1;
+    margin-right: 16px;
 }
