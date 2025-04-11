@@ -12,7 +12,7 @@ body {
     width: 80%;
     min-width: 600px;
     max-width: 1000px;
-    margin: 30px, auto;
+    margin: auto;
     padding: 48px;
 }
 #sidebar{
