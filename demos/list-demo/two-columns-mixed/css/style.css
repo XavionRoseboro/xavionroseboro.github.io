@@ -4,7 +4,7 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: Arial;
 }
 
 #grid-layout{
@@ -60,10 +60,10 @@ body {
     margin-right: 12px;
     margin-bottom: 24px;
 }
-.youtube-item .thumbnail-placeholder{
+.youtube-item .thumbnail-placeholder img{
     aspect-ratio: 16/9;
-    background: radial-gradient(at top left, greenyellow, rgb(4, 129, 4));
     border-radius: 8px;
+    width: 100%;
 }
 .youtube-item h4{
     margin: 8px;
@@ -75,6 +75,7 @@ body {
 }
 .youtube-item h4 a:hover{
     text-decoration: underline;
+    color: limegreen;
 }
 .youtube-item .video-details{
     margin: 8px;
