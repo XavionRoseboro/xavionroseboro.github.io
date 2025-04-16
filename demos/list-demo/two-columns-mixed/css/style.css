@@ -28,6 +28,14 @@ body {
     list-style-type: none;
     border-bottom: 1px solid #AAAAAA;
 }
+#sidebar img{
+    padding: 0px 24px;
+    width: 75px;
+    border-radius: 100%;
+}
+#sidebar #subs {
+    font-size: small;
+}
 #main{
     grid-area: main;
     display: flex;
