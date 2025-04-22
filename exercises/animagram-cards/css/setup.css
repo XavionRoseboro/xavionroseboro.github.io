@@ -50,45 +50,46 @@ body {
 #section-2 #animagram-card-1{
     background-color: white;
     border-radius: 20px;
-    width: 66px:;
+    max-width: 358px;
     margin: 16px;
 }
 
 #section-2 #animagram-card-2{
     background-color: white;
     border-radius: 20px;
-    width: 66px:;
+    max-width: 358px;
     margin: 16px;
 }
 
 #section-2 #animagram-card-3{
     background-color: white;
     border-radius: 20px;
-    width: 66px:;
+    max-width: 358px;
     margin: 16px;
 }
+
 #section-2 #animagram-card-3{
     background-color: white;
     border-radius: 20px;
-    width: 66px:;
+    max-width: 358px;
     margin: 16px;
 }
+
 #section-2 #animagram-card-4{
     background-color: white;
     border-radius: 20px;
-    width: 66px:;
+    max-width: 358px;
     margin: 16px;
     
 }
+
 .profile-pic-container img{
     width: 200px;
     border-radius: 100%;
     text-align: center;
 }
-.fa-solid fa-heart{
-    align-items: center;
 
-}
+
 
 
 
