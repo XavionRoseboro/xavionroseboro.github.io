@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#section-3 {
+    padding: 24px;
+    min-height: 100vh;
+}
+
+#section-3 {
+    background: url("../images/sinnoh-plain.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#section-3 .card-container {
+    align-items: stretch;
+}
+
+#section-3 .example-card {
+    max-width: 358px;
+    margin: 16px;
+}
+
+.card-style-3 .attack .energy {
+    min-width: 50px;
+    text-align: center;
+}
+
+.card-style-3 .power {
+    min-width: 50px;
+    text-align: center;
+}
+
+.card-style-3 i {
+    background: radial-gradient(white 40%, #333333);
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    font-size: 14px;
+}
+
+.card-style-3{
+    background-color: white;
+    border: solid 15px;
+    border-color: beige;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    margin: 24px;
+    padding: 24px;
+}
+
+.card-style-3 img{
+    width: 100%;
+    border: solid 5px;
+    margin-top: 0px;
+}
+
+.details{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: aqua;
+    width: 
+}
+
+.pokemon-header{
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.attack{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 2px;
+    margin: 15px;
+    padding: 10px 0px;
+    
+}
+
+.data{
+    font-size: 11px;
+    padding: 0 10px;
+    border: solid black 2px;
+}
+
+.description{
+    font-size: 14px;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.power{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#pokemon-card-1{
+    background-color: greenyellow;
+    border-color:green;
+}
+
+#pokemon-card-1 .details{
+    background-color: green;
+}
+
+#pokemon-card-1 .data{
+    border-color: green;
+}
+
+#pokemon-card-1 img{
+    border-color: green;
+}
+
+#pokemon-card-2{
+    background-color: greenyellow;
+    border-color:green;
+}
+
+#pokemon-card-2 .details{
+    background-color: green;
+}
+
+#pokemon-card-2 .data{
+    border-color: green;
+}
+
+#pokemon-card-2 img{
+    border-color: green;
+}
+
+#pokemon-card-3{
+    background-color: orange;
+    border-color:orangered;
+}
+
+#pokemon-card-3 .details{
+    background-color: orangered;
+}
+
+#pokemon-card-3 .data{
+    border-color: orangered;
+}
+
+#pokemon-card-3 img{
+    border-color: orangered;
+}
+
+#pokemon-card-4{
+    background-color: cyan;
+    border-color:blue;
+}
+
+#pokemon-card-4 .details{
+    background-color: blue;
+}
+
+#pokemon-card-4 .data{
+    border-color: blue;
+}
+
+#pokemon-card-4 img{
+    border-color: blue;
+}
+
