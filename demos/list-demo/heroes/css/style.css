@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1{
+    background-image: url("../images/spider-verse.webp");
+    height: 100vh;
+    background-size: cover;
+    background-position: left left;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#hero-1 h1{
+    font-size: 120px;
+    color: azure;
+    position: absolute;
+    left: 10%;
+}
+
+#hero-2{
+    background-image: url("../images/spider-verse.webp")
+    height: 100vh;
+    background-size: cover;
+    background-position: left left;
+
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    flex-direction:column;
+
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#hero-2 h2{
+    font-size: 72px;
+    position: absolute;
+    right: 20%;
+    bottom: 47%;
+}
+
+#hore-2 h4{
+    font-size: 24px;
+    position: absolute;
+    right: 20%;
+    bottom: ;
+}
+
+#hero-2 a{
+    font-size: 14px;
+    display: inline-block;
+    background-color: #333333;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 24px;
+    position: absolute;
+    right: 20%;
+    bottom: 41%;
+}
+
+#hero-3{
+    background-image: ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#hero-3 .hero-content{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+#hero-4{
+
+}
+
+.parallax-banner{
+    height: 50vh;
+    margin: 100px 0px;
+    background-image: url(../images/spider-verse.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
