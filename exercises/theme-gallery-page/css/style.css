@@ -16,6 +16,9 @@ body {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    border: solid 10px salmon;
+    padding: 24px;
+    gap: 24px;
 }
 
 .grid img {
