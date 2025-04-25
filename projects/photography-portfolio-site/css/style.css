@@ -8,9 +8,46 @@ body {
 }
 
 #hero {
-
+    background-image: url("../images/urban-hi-res-1ui7.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
 }
 
-#photography-collage {
+#hero-content {
+    color: beige;
+    font-size: xx-large;
+    position: absolute;
+    left: 10%;
+    text-align: center;
+}
 
+#hero-content a{
+    text-decoration: none;
+    color: beige;
+    background-color: rgb(74, 161, 161);
+    padding: 15px;
+    border-radius: 30px;
+    
+}
+
+#Gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    border: solid 10px beige;
+    padding: 24px;
+    object-fit: cover;
+    background-color: rgb(74, 161, 161);
+}
+
+#Gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
 }
