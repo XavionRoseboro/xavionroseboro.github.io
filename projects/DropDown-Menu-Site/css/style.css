@@ -6,3 +6,90 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#hero {
+    background-image: url("../images/dog.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: left left;
+}
+
+#hero a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: rgb(53, 37, 17);
+}
+
+#navbar {
+    position: sticky;
+}
+
+#navbar-container {
+    position: relative;
+}
+
+#dropdown {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+    z-index: 10;
+}
+
+#navbar-container:last-child #dropdown {
+    right: 0px;
+}
+
+#navbar-container:hover #dropdown {
+    opacity: 1;
+    visibility: visible;
+}
+
+#dropdown a {
+    background-color: darkslateblue;
+    width: 100%;
+    min-width: 200px;
+}
+
+#dog-2 {
+    background-color: aqua;
+    padding: 24px;
+    margin: 24px;
+    text-align: center;
+}
+#dog-2 img{
+    width: 300px;
+}
+
+#dog-3 {
+    background-color: aqua;
+    padding: 24px;
+    margin: 24px;
+    text-align: center;
+}
+#dog-3 img{
+    width: 300px;
+}
+
+#dog {
+    background-color: aqua;
+    padding: 24px;
+    margin: 24px;
+    text-align: center;
+}
+#dog img{
+    width: 300px;
+}
