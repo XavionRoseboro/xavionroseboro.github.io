@@ -7,89 +7,160 @@ body {
     font-family: sans-serif;
 }
 
-#hero {
-    background-image: url("../images/dog.jpg");
-    height: 100vh;
-    background-size: cover;
-    background-position: left left;
-}
-
-#hero a {
-    text-decoration: none;
-    color: black;
-}
-
 #navbar {
-    background-color: aqua;
+    background: linear-gradient(
+        to bottom,
+        #109ce8,
+        #0e5b96
+    );
     display: flex;
-    justify-content: space-between;
-    padding: 24px;
+    align-items: center;
 }
 
 #navbar a {
+    display: inline-block;
+    padding: 24px;
     text-decoration: none;
-    color: rgb(53, 37, 17);
+    color: white;
 }
 
-#navbar {
-    position: sticky;
+#navbar #logo {
+    margin-right: auto;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 13px;
+    padding-bottom: 12px;
 }
 
-#navbar-container {
+#navbar a:hover {
+    background: linear-gradient(
+        to top,
+        #17a4f0,
+        #0f578f
+    );
+}
+
+.dropdown-container {
     position: relative;
 }
 
-#dropdown {
+.dropdown-menu {
     position: absolute;
     opacity: 0;
     visibility: hidden;
     transition: 
-        opacity 0.25s,
-        visibility 0.25s;
-    z-index: 10;
+        opacity 0.5,
+        visibility 0.5s;
 }
 
-#navbar-container:last-child #dropdown {
-    right: 0px;
-}
-
-#navbar-container:hover #dropdown {
+.dropdown-container:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
 }
 
-#dropdown a {
+.dropdown-menu a {
     background-color: darkslateblue;
     width: 100%;
     min-width: 200px;
 }
 
-#dog-2 {
-    background-color: aqua;
+#navbar .dropdown-menu a:hover {
+    background: slateblue;
+}
+
+#pet-hero {
+    z-index: -1;
+    background-image: url("../images/dog.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: left left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#pet-hero h1 {
+    position: relative;
+    left: 12px;
+}
+
+#pet-hero a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #0e5b96;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    left: 100px
+}
+#dog {
+    background-image: ;
+    background-color: #0f578f;
     padding: 24px;
     margin: 24px;
     text-align: center;
+    box-shadow: black inset 12px;
 }
-#dog-2 img{
+
+#dog h1 {
+    font-size: 50px;
+    color: beige;
+}
+
+#dog p {
+    font-size: 20px;
+    color: beige;
+}
+
+#dog img{
     width: 300px;
 }
 
 #dog-3 {
-    background-color: aqua;
+    background-image: ;
+    background-color: #0f578f;
     padding: 24px;
     margin: 24px;
     text-align: center;
+    box-shadow: black inset 12px;
 }
+
+#dog-3 h1 {
+    font-size: 50px;
+    color: beige;
+}
+
+#dog-3 p {
+    font-size: 20px;
+    color: beige;
+}
+
 #dog-3 img{
     width: 300px;
 }
 
-#dog {
-    background-color: aqua;
+#dog-2 {
+    background-image: ;
+    background-color: #0f578f;
     padding: 24px;
     margin: 24px;
     text-align: center;
+    box-shadow: black inset 12px;
 }
-#dog img{
+
+#dog-2 h1 {
+    font-size: 50px;
+    color: beige;
+}
+
+#dog-2 p {
+    font-size: 20px;
+    color: beige;
+}
+
+#dog-2 img{
     width: 300px;
 }
