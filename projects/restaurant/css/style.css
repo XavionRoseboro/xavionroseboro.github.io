@@ -81,3 +81,17 @@ body {
     flex: 1;
     object-fit: cover;
 }
+
+#hero {
+    text-align: center;
+}
+
+#hero a {
+    text-decoration: none;
+    color: #F2F4F3;
+    font-weight: bold;
+    background-color: #524363;
+    padding: 12px;
+    border-radius: 12px;
+}
+    
