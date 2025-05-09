@@ -173,3 +173,24 @@ body {
     font-style: normal;
     font-size: 36px;
 }
+
+@media screen and (max-width: 768px) {
+    
+#navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+#hero {
+    font-size: 48px;
+}
+    
+#images {
+    display: flex;
+    flex-direction: column;
+}
+
+#manu-grid {
+    display: flex;
+    
+}
