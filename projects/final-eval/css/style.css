@@ -80,6 +80,15 @@ body {
 }
 
 .buttons {
+    margin: 38px;
+}
+
+#button-1 {
+    background-color: aqua;
+    padding: 24px;
+}
+
+#button-2 {
     background-color: aqua;
     padding: 24px;
 }

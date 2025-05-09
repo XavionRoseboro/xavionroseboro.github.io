@@ -5,6 +5,11 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url("..images/sushi.jpg");
+}
+
+body {
+  background-image: url("..images/sushi.jpg");
 }
 
 #navbar {
@@ -67,17 +72,21 @@ body {
 }
 
 #menu-grid {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 24px;
     border: solid 10px beige;
     padding: 24px;
     object-fit: cover;
-    background-color: rgb(195, 253, 255);
+    background-color: rgb(
+        195, 253, 255);
 }
 
 #menu-grid img {
     height: 250px;
+    width: 300px;
+    border: #F2F4F3 5px solid;
+    border-radius: 12px;
     flex: 1;
     object-fit: cover;
 }
