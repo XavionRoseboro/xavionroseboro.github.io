@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.poster {
+    text-align: center;
+    margin: 24px;
+    padding: 10px;
+}
+
+.teams img {
+    width: 30%;
+}
+
+#bottom {
+    margin-bottom: 24px;
+}
+
+.bottom-text {
+    margin-bottom: 24px;
+}
+
+.top-text {
+    margin-bottom: 24px;
+}
+
+#eagles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#steelers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#top {  
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#main-title {
+    font-size: 100px;
+}
+
+#party {
+    font-size: 50px;
+}
+
+#main-slogan {
+    font-size: 30px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#sub-1 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+#sub-2 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#sub-3 {
+    font-size: 18px;
+}
+
+.buttons {
+    background-color: aqua;
+    padding: 24px;
+}
+
+
+      
+
