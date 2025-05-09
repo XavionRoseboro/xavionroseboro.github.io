@@ -73,14 +73,15 @@ body {
 }
 
 #menu-grid {
+    text-align: center;
+    color: #F2F4F3;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 24px;
-    border: solid 10px beige;
+    border: solid 10px #F2F4F3;
     padding: 24px;
     object-fit: cover;
-    background-color: rgb(
-        195, 253, 255);
+    background-color:#524363;
 }
 
 #menu-grid img {
@@ -89,10 +90,11 @@ body {
     border: #F2F4F3 5px solid;
     border-radius: 12px;
     flex: 1;
-    object-fit: cover;
+    object-fit: cover;;
 }
 
 #hero {
+    z-index: -1;
     background-image: url("/projects/restaurant/images/sushi.jpg");
     height: 50vh;
     background-position: right center;
@@ -110,4 +112,26 @@ body {
     position: absolute;
     bottom: 36px;
 }
+
+#images img{  
+    width: 600px;
+    height: 600px;
+    border: 10px solid #524363;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-right: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
     
+#images {
+    margin: 36px;
+    text-align: center;
+}
+
+#menu-name {
+    text-align: center;
+    color:  #524363;
+    font-size: 30px;
+}
