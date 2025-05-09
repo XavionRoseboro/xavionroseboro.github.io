@@ -5,11 +5,12 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-image: url("..images/sushi.jpg");
 }
 
 body {
-  background-image: url("..images/sushi.jpg");
+    background-image: url("/projects/restaurant/images/steel.jpg");
+    background-size: cover;
+    min-width: 300px;
 }
 
 #navbar {
@@ -92,7 +93,11 @@ body {
 }
 
 #hero {
+    background-image: url("/projects/restaurant/images/sushi.jpg");
+    height: 50vh;
+    background-position: right center;
     text-align: center;
+    position: relative;
 }
 
 #hero a {
@@ -102,5 +107,7 @@ body {
     background-color: #524363;
     padding: 12px;
     border-radius: 12px;
+    position: absolute;
+    bottom: 36px;
 }
     
